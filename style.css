@@ -26,16 +26,18 @@ h1{
     font-weight: bold;
     font-size: 36px;
     padding-bottom: 30px;
-    margin-bottom: 0px;
+    margin: 0px;   
 }
 
 p{
     font-size: 18px;
 }
 
-.odstavec1{margin-top: 0;
+.odstavec1{
+    margin-top: 0;
 }
-.odstavec2{margin-bottom: 30px;
+.odstavec2{
+    margin-bottom: 30px;
 }
 
 .box{
@@ -48,6 +50,7 @@ p{
     margin-right: auto;
     border-radius: 10px;
     position:relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
@@ -58,8 +61,34 @@ img{position:absolute;
     height: 150px;
     border-radius: 50%;
     border: 3px solid white;
-
-
-
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.twitter{
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.twitter:hover{
+    color:#0b7bc1;}
+
+
+.facebook{
+    background-color: #3b5998;
+}
+
+.facebook:hover{
+color: #2b406e
+}
